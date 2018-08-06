@@ -1,0 +1,727 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>无线电测向社</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+ <!-- Custom Theme files -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content="" />
+<!--<link href='http://fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'> -->
+ <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ <!---- start-smoth-scrolling---->
+</head>
+	<body>
+	<script type="text/javascript">
+/* 鼠标特效 */
+var a_idx = 0;
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善", "白糖：只要有信念，就一定能成功!", "打得赢就打，打不赢就走。", "我们一定要解放台湾!", "文明其精神，野蛮其体魄!", "贪污和浪费是极大的犯罪。", "孩儿立志出乡关，学不成名誓不还。", "江山如此多娇!", "苍山如海，残阳如血!", "哪里有压迫，哪里就有反抗!", "封锁吧!封锁它十年八年，中国的一切问题都解决了!", "独立寒秋，湘江北去，橘子洲头。", "汽笛一声肠已断，从此天涯孤旅!", "中国人民有志气有能力，一定能在不远的将来赶上和超过世界先进水平!", "好好学习，天天向上。", "富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善", "白糖：只要有信念，就一定能成功!", "在战略上要藐视敌人，在战术上要重视敌人!", "中国人民从此站起来了!", "与天斗其乐无穷!与地斗其乐无穷!与人斗其乐无穷!", "凡是敌人反对的我们就要拥护，凡是敌人拥护的我们就要反对!", "一切反动派都是纸老虎!", "富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善", "星星之火，可以燎原", "人不犯我，我不犯人;人若犯我，我必犯人!", "夺取全国胜利，只是万里长征的第一步。", "自信人生二百年，会当水击三千里!", "军民团结如一人，试看天下谁能敌!");
+        var $i = $("<span/>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "#ff6651"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+</script>
+		<!-- container -->
+			<!-- header -->
+			<div id="home" class="header">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav">
+					<div class="navigation">
+					<div class="logo">
+						<h1><a href="index.html"><span>无</span>线电测向社团</a></h1>
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img src="images/menu.png" alt=" " /></span>
+						<nav class="link-effect-3" id="link-effect-3">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="简介" href="index.html">简介</a></li>
+								<li><a class="scroll" data-hover="关于" href="#about">关于</a></li>
+								<li><a class="scroll" data-hover="要做什么" href="#services" >要做什么</a></li>
+								<li><a class="scroll" data-hover="足迹" href="#work">足迹</a></li>
+								<li><a class="scroll" data-hover="照片" href="#port">照片</a></li>
+								<li><a class="scroll" data-hover="加入我们" href="#contact">加入我们</a></li>
+							</ul>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!-- /top-hedader -->
+				</div>
+			<div class="banner-info">
+			  <div class="col-md-7 header-right col-lg-8">
+					<h1>什么是无线电测向</h1>
+				<h6>简单来说是一个可以锻炼领导能力 增加魅力 树立信心 增强体质 的项目</h6>
+                <h6>第一部分：用无线电测向仪器去寻找隐藏电台，在最快时间找出来</h6>
+                <h6>第二部分：焊接电路板 做做电路啥的，比王者农药 阳阴师有趣多了！</h6>
+          
+</div>
+<div class="clearfix"> </div>
+						
+		      </div>
+			</div>
+            <br>
+  
+		</div>
+        
+	</div>
+    
+			<!-- about -->
+			<div id="about" class="about">
+				<div class="col-md-6 about-left">
+					<div id="owl-demo1" class="owl-carousel owl-carousel2">
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2><span>无线电测向社相比其他社团优势</span></h2>
+											<p>身体是革命的本钱，对于我们青少年来说应该多加运动才会健康才能快乐。而我们社团能给予大家一定的锻炼量，不多不少满足我们中学生的日常需要。好的身体是一辈子的，别像小编红眼病停课2个月这就不好了。现在中国教育缺失“科学家”理想 青少年动手能力低，实战动手操作能力差，我国整体教育还是太注重书本，注重笔头作业，青少年动手操作能力就显得弱了很多。我们的孩子一般动手操作能力比较差，甚至有的孩子在认知方面出现了偏差。因此我们需要真正从幼儿阶段一直到小学、初中、高中增加体验式的学习、动手操作的学习。而我们社团日常会焊接电路、做做板子，这方面正好弥补了教育的缺失，使你以后找工作或者创业更加容易。在训练过程中也可以锻炼你的领导能力，使过渡进入社会迈进更大一步！</p>
+											<ul>
+						
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2><span>我们日常</span></h2>
+											<p>在上学时期，我们每周固定一天两节课去训练，如果有空的前提下每周二到四都可以来参加活动，当然在你有空的前提下我们并不强求。如果你觉得训练是在外面跑来跑去，那就错了，我们不单只注重身体上锻炼更重要的是靠脑力。我们会抽空坐下来开开分析会，分析如何做得更好，和大家谈谈要点。这是我们为何领先的原因，无线电测向不是能跑就会赢，要用脑为自己赢得胜利。非上学期间我们也可能有比赛和训练，这是一场长跑，临时抱佛脚是不行的，如果不能牺牲自己的假期那么还是别来了。成功不是这么简单。</p>
+											<ul>
+											
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2><span>为何开展这个社团</span></h2>
+											<p>无线电测向，是一项集脑力与体力为一体的运动。但现在的学生对它的了解是少之又少，为了让它重新为学生所知，特意重开无线电测向这个社团。学校的其他社团自然很有趣，但是无线电测向一定不会让你失望。这项运动不仅可以锻炼体能，还可以锻炼各个方面的能力，它会让你更独立，做事更有调理。在这里，你可以交到很多朋友，师兄师姐也很幽默，指导老师那是更加的可爱，等你进入这个社团你会体会到的。我们社团不单单只是像其他社团一样作为一种兴趣，平时还会带出学校参加比赛，既开阔眼界，也可以改善方向感。甚至可以为你接下来的学习奠定一定的基础，让你赢在起跑线上，懂得你身边同学都不懂的理科知识。为了弘扬铺路精神，在发展创客教育下我们重新开展无线电测向社，旨在让每个学生体验成功，彭中学生敢于挑战！我们需要你有刻苦的精神，不轻言放弃，不小看自己。只要你有这方面的兴趣或者喜欢搞电子、编程，就快点来加入我们吧！</p >
+											<ul>
+											</ul>
+										</div>
+					                </div>
+					</div>
+				</div>
+				<div class="col-md-6 about-right">
+					
+				</div>
+				<div class="clearfix"> </div>
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			</div>
+			<!-- /about -->
+			<!-- services -->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head one text-center ">
+						<h4>WHAT I DO</h4>
+						<h3>加<span>入后我要需要做什么</span></h3>
+						<span class="border two"></span>
+					</div>
+					<!-- services-grids -->
+					<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-pencil"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>善于总结</h4>
+						<p>我们会把每次训练的过程以及不住记下来，供进一步提升和日后回忆。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-cog"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>身体硬核</h4>
+						<p>身体是我们彭中人奋斗的资本，一定要自强不息自己训练。要有好的体格，每一次早操、跑操、日常训练用最认真的态度去参与，要有过硬的体格。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>勤俭节约</h4>
+						<p>对这也是要点，在训练中我们要珍惜学校资源，学校给我们的资源是好不容易在其他方面才争取到的。尽管我们没有最好的条件，不过比赛中我们却能比条件好的成绩更好。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-gift"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>回报时刻</h4>
+						<p>如果你做到前三条，说明你走上了成功的大道，成功离你不远，只要能在关键时候咬牙坚持，有信念，就一定能够成功，这时候是回报的时候，是获得奖励的时候！</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+					<!-- services-grids -->
+				</div>
+			</div>
+			<!-- services -->
+			<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >手机网站模板</a></div>
+			<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>团队发展史</h4>
+						<h3>我们的 <span>足迹</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-6 year-info">
+							   <ul class="year">
+								   <li>2018-3-14</li>
+								   <li>2018-5-1</li>
+								   <li>2018-5-5</li>
+								   <li>2018-5-26</li>
+								   <li>2018-7-25</li>
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+					                        <ul class="col-md-6 timeline">
+																<li>
+																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">久违的阳光---第二次重启无线电测向社团</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>学校号召 重新组建无线电测向社团  为了使我校更加优质、全方面发展</p>
+																	</div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">四散---部分成员离去</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>精简社团人数 这时期部分社员离去和裁去不积极社员，使我们更加优秀。我们对离开的成员表示遗憾和惋惜！</p>
+																	</div>
+																  </div>
+																</li>
+																
+																
+																
+																<li>
+																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">初探世界---区赛</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>社团重启后第一次看世界去比赛，虽然成绩不是太好，不过我们进步了，我们反省了，我们优秀了。</p>
+																	</div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">进击吧---市赛</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>我们一起到广州市第一中比赛，场面比区赛大多了，外面真是太大了！在第二批招人中新进了一名成员，虽然技术不好但也一起去旁跑，这是我们奋斗进取的表现，也是我们彭中人的信念。这次比赛我们获得了一等奖优异的成绩，我们是可以的！</p>
+																	</div>
+																  </div>
+																</li>
+																<li>
+																  <div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">闪耀吧---第二次省赛</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>尽管我们部分成员身体不适没有参加比赛，不过剩下的6位热血青年入围。我们在清远市第一中学进行比赛，并且取得不小成就，为我校示范性进程助力！只要有信念，打遍天下都不怕！</p>
+																	</div>
+																  </div>
+																</li>
+																<li>
+																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">发现---社团招新</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>嘿！我们在这里等被选中的你!</p>
+																	</div>
+																  </div>
+																</li>
+															</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+	<!--//work-experience-->
+
+		<!-- portfolio -->
+<div class="portfolio" id="port">
+				<div class="service-head text-center">
+						<h4>我们社团的</h4>
+						<h3>日常 <span>瞬间</span></h3>
+						<span class="border"></span>
+					</div>
+			<div class="portfolio-grids">
+				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+				<script type="text/javascript">
+									$(document).ready(function () {
+										$('#horizontalTab').easyResponsiveTabs({
+											type: 'default', //Types: default, vertical, accordion           
+											width: 'auto', //auto or any width like 600px
+											fit: true   // 100% fit in a container
+										});
+									});
+									
+				</script>
+				<div class="sap_tabs">
+					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						<ul class="resp-tabs-list">
+							<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>ALL</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>比赛</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>训练</span></li> 				
+							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>日常</span></li> 
+						</ul>				  	 
+						<div class="resp-tabs-container">
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+								<div class="col-md-3 team-gd "><a href="#portfolioModal0" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic1.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic2.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic3.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic4.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic5.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic7.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal10" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal11" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal13" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt=""></a></div>
+
+								<div class="clearfix"></div>
+							</div>
+							
+							
+							
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="col-md-3 team-gd "><a href="#portfolioModal0" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic.jpg" alt=""></a></div>
+                                    <div class="col-md-3 team-gd "><a href="#portfolioModal10" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.jpg" alt=""></a></div>
+                                    <div class="col-md-3 team-gd "><a href="#portfolioModal11" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.jpg" alt=""></a></div>
+                                   <div class="col-md-3 team-gd "><a href="#portfolioModal13" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.jpg" alt=""></a></div>
+								<div class="clearfix"></div>
+							</div>
+							
+							
+							
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+							<div class="col-md-3 team-gd "><a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic2.jpg" alt=""></a></div>
+							<div class="col-md-3 team-gd "><a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.jpg" alt=""></a></div>
+							<div class="col-md-3 team-gd "><a href="#portfolioModal9" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.jpg" alt=""></a></div>
+								<div class="clearfix"></div>
+							</div>
+							
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic1.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic3.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic4.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic5.jpg" alt=""></a></div>
+                                <div class="col-md-3 team-gd "><a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic7.jpg" alt=""></a></div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- //portfolio -->
+    <!-- top-grids -->
+				<div class="blog" id="blogs">
+					<div class="container">
+						<div class="service-head text-center">
+					</div>
+					</div>
+				</div>
+				<!-- top-grids -->
+			<!-- /header -->
+<div class="footer" id="contact">
+	<div class="container">
+	<div class="service-head one text-center">
+						<h4>一起来</h4>
+						<h3><span>加入我们社团</span></h3>
+						<span class="border two"></span>
+					</div>
+		<div class="mail_us">
+			<div class="col-md-6 mail_left col-lg-12">
+<div class="contact-grid1-left"> </div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							<h4>什么你不知道怎么加入我们</h4>
+							<h4>!!!∑(ﾟДﾟノ)ノ</h4>
+							<ul>
+								<li>如果到时候要求报社团，会有一张表单，我们无线电社团打钩就好</li>
+								<li>或者在学校放学散步看到有手持“大哥大”在跑的人追上去问问问φ(>ω<*) </li>
+							</ul>
+						</div>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+</div>
+		<div class="copy_right text-center"> </div>
+	</div>
+</div>
+			<!-- //footer -->
+		<!-- /container -->
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>赛前</h3>
+                        <img src="images/pic.jpg" class="img-responsive img-centered" alt="">
+                        <p>一伙围在一起，讨论如何获胜。<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>自助餐</h3>
+                        <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+                        <p>最重要的是吃，吃饱了才能赢( • ̀ω•́ )✧<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>赛前3天训练</h3>
+                        <img src="images/pic2.jpg" class="img-responsive img-centered" alt="">
+                        <p>在某公园进行赛前训练，在这最后关头，大家在讨论有什么不足。<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>外面吃东西</h3>
+                        <img src="images/pic3.jpg" class="img-responsive img-centered" alt="">
+                        <p>辛苦了一天，找了个地方坐下来吃吃吃！气氛很融洽。尽管有些清淡，啊运动员嘛当然不能吃太暴力的东西。<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>外面吃东西</h3>
+                        <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
+                        <p>赛前成员合照（这不是全部，有几个身体不适没去啦￣へ￣）<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>坐车</h3>
+                        <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
+                        <p>我们出力，学校出车。<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>合照</h3>
+                        <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
+                        <p>赛前成员合照<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>老师家做客</h3>
+                        <img src="images/pic7.jpg" class="img-responsive img-centered" alt="">
+                        <p>看，多认真看电视，虽然说不是很喜欢看<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>夜巡</h3>
+                        <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
+                        <p>赛成功的由来，不管白天还是晚上，都在连练练！<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>比赛结束合照</h3>
+                        <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
+                        <p>比赛完后看大家都兴奋<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>装机比赛</h3>
+                        <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
+                        <p>焊接电路板...<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>开会</h3>
+                        <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
+                        <p>我没去，我不知道讲什么<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	
+
+	</body>
+</html>
+
